@@ -1,5 +1,8 @@
 # import mysql.connector
 
+# name = input("name: ")
+# task_count = int(input("task number: "))
+
 # try:
 #     db = mysql.connector.connect(
 #         host = "localhost",
@@ -11,11 +14,11 @@
 #         print("ulanish muvaffaqiyatli amalga oshdi")
 #     cursor= db.cursor()
 #     sql = "INSERT INTO users (name, task_count) VALUES (%s, %s)"
-#     val = ("coder", 4)
+#     val = (name, task_count)
 
 #     cursor.execute(sql,val)
 #     db.commit()
-#     print(f"{cursor.rowcount} ta malumot push")
+#     print(f"{name} bazaga  push")
 
 # except mysql.connector.Error as err:
 #     print(f"Xatolik yuz berdi: {err}")
