@@ -56,15 +56,6 @@ def future_funksion():
 #pass: "Shunchaki o'tib ket va keyingi qatordan davom et".
 
 
-def my_function():
-    """Do nothing, but document it.
-
-    No, really, it doesn't do anything:
-
-        >>> my_function()
-        >>>
-    """
-    pass
 
 print(my_function.__doc__)
 
@@ -83,7 +74,6 @@ def qo_shish(a, b):
 # Bu qism faqat fayl bevosita ochilganda ishlaydi
 if __name__ == "__main__":
     print("Test: 2 + 3 =", qo_shish(2, 3))
-#siz bu faylni ochib ishga tushirsangiz, natija: Test: 2 + 3 = 5.
 
 #boshqa faylda import qo_shish , u faqat funksiyani oladi
 #lekin print qismini ishga tushirmaydi.becouse __name__ != main in another file
